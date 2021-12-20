@@ -2,15 +2,12 @@
 
 declare(strict_types=1);
 
-
 namespace Mbsoft31\LaravelSettings\Contracts;
-
 
 use Illuminate\Support\Facades\Auth;
 
 class Repository extends \Illuminate\Config\Repository
 {
-
     public string $table_name = "settings";
 
     public string $model_type;
@@ -25,5 +22,4 @@ class Repository extends \Illuminate\Config\Repository
 
         parent::__construct($items);
     }
-
 }

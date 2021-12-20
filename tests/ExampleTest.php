@@ -7,7 +7,7 @@ it('can test', function () {
     /** @var Setting $setting */
     $setting = Setting::create([
         "key" => "app.locale",
-        "value" => "ar"
+        "value" => "ar",
     ]);
 
     $setting->metas()->createMany([
