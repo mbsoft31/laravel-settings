@@ -2,9 +2,9 @@
 
 namespace Mbsoft31\LaravelSettings;
 
+use Mbsoft31\LaravelSettings\Commands\LaravelSettingsCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Mbsoft31\LaravelSettings\Commands\LaravelSettingsCommand;
 
 class LaravelSettingsServiceProvider extends PackageServiceProvider
 {
