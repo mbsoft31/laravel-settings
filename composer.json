@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "mbsoft31/laravel-settings",
+    "description": "This is my package laravel-settings",
     "keywords": [
-        ":vendor_name",
+        "mbsoft31",
         "laravel",
-        ":package_slug"
+        "laravel-settings"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/mbsoft31/laravel-settings",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "mbsoft31",
+            "email": "bekhouche.mouadh@gmail.com",
             "role": "Developer"
         }
     ],
@@ -34,13 +34,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Mbsoft31\\LaravelSettings\\": "src",
+            "Mbsoft31\\LaravelSettings\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Mbsoft31\\LaravelSettings\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Mbsoft31\\LaravelSettings\\LaravelSettingsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelSettings": "Mbsoft31\\LaravelSettings\\Facades\\LaravelSettings"
             }
         }
     },
